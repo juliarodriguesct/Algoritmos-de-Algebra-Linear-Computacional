@@ -19,7 +19,7 @@ int main (void) {
     printf("Informe a dimensao da matriz: ");
     scanf("%d %d", &N, &M);
     int matriz[N][M];
-	printf("Informe os compos da matriz\n");
+	printf("Informe os campos da matriz\n");
 
     for (i=0;i<N;i++) {
         for (j=0;j<M;j++) {
@@ -48,7 +48,7 @@ int main (void) {
     if (simetrica) {
         printf("A Matriz informada e simetrica\n");
     } else {
-        printf("A matriz informada nao e simetrica\n");
+        printf("A Matriz informada nao e simetrica\n");
     }
 
     return 0;
